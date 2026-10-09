@@ -7,5 +7,8 @@ from .schemes import brownian_increments, euler_maruyama, milstein, simulate
 from .convergence import strong_order, weak_order
 from .analytic import (black_scholes, bs_delta, bs_gamma, bs_vega,
                        heston_price, merton_price)
+from .pricing import (MCResult, delta_finite_difference, delta_likelihood_ratio,
+                      delta_pathwise, mc_price, mc_price_control_variate,
+                      payoff_asian, payoff_european, payoff_up_and_out_call)
 
-__version__ = "0.4.0"
+__version__ = "0.5.0"
