@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcsde"
+version = "1.0.0"
+description = "Monte Carlo simulation of stochastic differential equations for pricing and risk measurement of financial derivatives"
+authors = [{ name = "Noreddine Razzouk" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
