@@ -4,7 +4,7 @@
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-Software project (6 ECTS), M.Sc. Mathematics, University of Augsburg
+Software project  M.Sc. Mathematics, University of Augsburg
 Author: **Noreddine Razzouk**
 
 ---
